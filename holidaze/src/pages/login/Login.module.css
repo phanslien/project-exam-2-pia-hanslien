@@ -1,0 +1,11 @@
+.login_heading {
+  margin: 20px 40px;
+}
+
+@media only screen and (max-width: 700px) {
+  .login_heading {
+    margin: 30px 20px 10px 30px;
+  }
+  
+}
+

@@ -1,0 +1,106 @@
+.container_home_content_one {
+  text-align: center;
+  justify-items: center;
+  padding: 150px;
+}
+
+.container_home_content_two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--color-primary-light);
+  height: 400px;
+  margin-bottom: 150px;
+  box-shadow: var(--box-shadow);
+}
+
+.container_home_content_three {
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-bottom: 150px;
+}
+
+.container_home_content_three_grid div {
+  margin: 20px;
+  padding-bottom: 30%;
+  box-shadow: var(--box-shadow);
+  background-color: var(--color-primary-light);
+}
+
+.container_home_content_three_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+.container_home_content_three_grid img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container_home_content_three p {
+  text-align: center;
+  padding-top: 30px;
+  font-size: var(--font-size-quote);
+  font-family: var(--font-family-quote);
+}
+
+.container_home_divider {
+  display: table;
+  margin: 0 auto;
+  border: solid var(--color-primary-dark);
+  border-width: 0 0px 3px 0;
+  padding: 15px 30px;
+}
+.container_home_content_three h2,
+.container_home_content_two h2,
+.container_home_content_one h1 {
+  text-align: center;
+  font-weight: 500;
+  color: var(--color-primary-red);
+}
+
+.container_home_content_two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--color-primary-light);
+}
+
+.container_home_content_two img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.image_container {
+  width: 100% !important;
+}
+.container_home_content_two p {
+  padding: 10px 30px;
+  margin: 0 auto;
+  max-width: 500px;
+  padding-top: 30px;
+}
+
+.container_home_content_two__text {
+  align-self: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .container_home_content_one {
+    padding: 80px 10px;
+  }
+
+  .container_home_content_two {
+    padding: 20px;
+    grid-template-columns: 1fr;
+    height: 100%;
+    margin-bottom: 80px;
+  }
+  .container_home_content_two p {
+    padding: 10px 0;
+  }
+
+  .container_home_content_three_grid {
+    grid-template-columns: 1fr;
+  }
+}

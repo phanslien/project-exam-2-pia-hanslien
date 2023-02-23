@@ -1,0 +1,17 @@
+.form_error {
+  padding: 10px;
+  background-color: rgb(154, 41, 41);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 3px 0 10px 0;
+  max-width: 490px
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-top: 20px;
+}

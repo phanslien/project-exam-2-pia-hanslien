@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&family=Poppins:wght@400;600;800&display=swap');
+@import url("https://use.typekit.net/ptw8ime.css");
+
+:root {
+  --color-primary-dark: #191919;
+  --color-primary-light: #F0F0F0;
+  --color-primary-red: #9A2929;
+  --color-secondary-beige: #e8e4e0;
+  --color-box-shadow: #31313158;
+  --color-transparent: transparent;
+
+  --color-gradient: linear-gradient(40deg, #9A2929 0%, #f08686 100%);
+  --font-family-logo: 'cinema-script', sans-serif;
+  --font-family-heading: 'Poppins', sans-serif;
+  --font-family-body: 'Open Sans', sans-serif;
+  --font-family-quote: 'Poppins', sans-serif;
+
+  --font-weight-small: 500;
+  --font-weight-medium: 600;
+  --font-weight-large: 800;
+
+  --font-size-logo: 65px;
+  --font-size-heading-large: 32px;
+  --font-size-heading-medium: 24px;
+  --font-size-heading-small: 18px;
+  --font-size-body: 16px;
+  --font-size-link: 14px;
+  --font-size-quote: 14px;
+
+  --spacing-none: 0px;
+  --spacing-x-small: 4px;
+  --spacing-small: 8px;
+  --spacing-regular: 24px;
+  --spacing-medium: 30px;
+  --spacing-large: 40px;
+  --spacing-x-large: 64px;
+
+  --text-decoration-none: none;
+  --text-decoration-underline: underline;
+
+  --box-shadow: 0px 2px 8px 0px var(--color-box-shadow);
+
+  --border-none: none;
+  --border-transparent: 1px solid var(--color-transparent);
+  --border-dark: 1px solid var(--color-primary-dark);
+  --border-red: 1px solid var(--color-primary-red);
+  --border-beige: 1px solid var(--color-secondary-beige);
+
+  --border-radius-large: 50px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-secondary-beige);
+}
+
+/* Global Text & Link styles */
+p, a {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-body);
+  line-height: var(--spacing-regular);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-medium);
+}
+
+a {
+  cursor: pointer;
+  text-decoration: var(--text-decoration-none);
+  font-weight: var(--font-weight-large);
+}
+
+
+@media only screen and (max-width: 700px) {
+  p, a {
+    font-size: var(--font-size-link);
+  }
+}

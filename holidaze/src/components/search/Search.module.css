@@ -1,0 +1,14 @@
+.container_search__input {
+  width: 300px;
+  padding: 8px;
+  margin: 20px 30px 10px;
+  font-size: var(--font-size-link);
+  border: none;
+  box-shadow: var(--box-shadow);
+}
+
+@media only screen and (max-width: 700px) {
+  .container_search__input {
+    width: 200px;
+  }
+}

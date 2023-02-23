@@ -1,0 +1,12 @@
+.footer {
+  background: var(--color-primary-red);
+  padding: var(--spacing-large);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
