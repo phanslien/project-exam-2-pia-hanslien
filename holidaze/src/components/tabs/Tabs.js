@@ -4,8 +4,6 @@ import TabContent from "./TabContent";
 import styles from "./Tabs.modules.css";
 import HeadingSmall from "../elements/heading/HeadingSmall";
 import HeadingMedium from "../elements/heading/HeadingMedium";
-import HeadingLarge from "../elements/heading/HeadingLarge";
-import FetchData from "../../hooks/FetchHotels";
 import TabContentOne from "./tabContent/tabContentOne";
 import TabContentTwo from "./tabContent/TabContentTwo";
 import TabContentThree from "./tabContent/TabContentThree";
@@ -47,23 +45,21 @@ const Tabs = () => {
           <TabContent id="tab_one" active={active}>
             <HeadingMedium headingMedium="Overview" />
             <div className="dashboard_tabs__content">
-              <p className="tab_content__text">
-               Hello
-              </p>
+              <p className="tab_content__text">Hello</p>
             </div>
           </TabContent>
           <TabContent id="tab_two" active={active}>
             <HeadingMedium headingMedium="Contact entires" />
             <ul>
               <div className="tab_content__text">
-              <TabContentOne />
+                <TabContentOne />
               </div>
             </ul>
           </TabContent>
           <TabContent id="tab_three" active={active}>
             <HeadingMedium headingMedium="Enquires" />
             <div>
-            <TabContentTwo />
+              <TabContentTwo />
             </div>
           </TabContent>
           <TabContent id="tab_four" active={active}>

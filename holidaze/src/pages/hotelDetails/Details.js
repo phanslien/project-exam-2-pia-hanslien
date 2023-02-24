@@ -4,8 +4,7 @@ import ButtonPrimary from "../../components/elements/button/ButtonPrimary";
 import styles from "./Details.module.css";
 import { NavLink } from "react-router-dom";
 
-
-const URL = 'http://localhost:1337/api/products';
+const URL = "http://localhost:1337/api/products";
 
 function HotelDetails() {
   const [hotelDetail, setHotelDetail] = useState(null);
@@ -22,12 +21,9 @@ function HotelDetails() {
 
   const api = URL + "/" + id;
 
-
-
   useEffect(
     function () {
       async function fetchData() {
-        
         try {
           const response = await fetch(api);
 
@@ -59,7 +55,9 @@ function HotelDetails() {
 
   return (
     <div>
-      <h1 className={styles.detailPage_heading}>{hotelDetail.data.attributes.Title}</h1>
+      <h1 className={styles.detailPage_heading}>
+        {hotelDetail.data.attributes.Title}
+      </h1>
       <div className={styles.container_detailPage}>
         <div>
           <p>x</p>
