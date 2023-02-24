@@ -1,18 +1,17 @@
 import styles from "./Footer.module.css";
+import { Footer } from "antd/es/layout/layout";
 
-function Footer() {
+function FooterOne() {
   return (
     <>
-      <footer className={styles.footer}>
-        <div>
-          <p>hello</p>
-        </div>
-        <div>
-          <p>hello</p>
-        </div>
-      </footer>
+     <Footer className={styles.footer}>
+      <p>
+        Hello
+      </p>
+      <p>World</p>
+      </Footer>
     </>
   );
 }
 
-export default Footer;
+export default FooterOne;
