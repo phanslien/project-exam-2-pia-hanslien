@@ -1,12 +1,15 @@
 import styles from "./App.css";
-import Navbar from "./components/navbar/Navbar";
+import NavBar from "./components/navbar/Navbar";
+import AppRoutes from "./components/navbar/NavRoutes";
 import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-  <>
-    <Navbar />
-  </>
+    <>
+      <NavBar />
+      <AppRoutes />
+      <Footer />
+    </>
   );
 }
 

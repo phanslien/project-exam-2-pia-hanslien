@@ -5,7 +5,7 @@
   border: none;
   box-shadow: var(--box-shadow);
   font-family: var(--font-body);
-  margin: 5px 20px 20px 20px;
+  margin: 5px 0px 20px 0px;
 }
 
 .login_button {
@@ -21,6 +21,8 @@
   width: 120px;
   height: 40px;
   cursor: pointer;
+  float: left;
+
 }
   
 .login_button:hover {
@@ -32,14 +34,13 @@
 
 .login_text {
   text-align: left;
-  margin: 0 20px;
+  margin: 0;
 }
 .login_form {
   border: none;
   justify-items: center;
   margin: 0px 20px;
   text-align: center;
-  float: left;
 }
 
 @media only screen and (max-width: 700px) {
@@ -51,8 +52,8 @@
     box-shadow: var(--box-shadow);
     font-family: var(--font-body);
     margin: 0 10px 10px;
-    
   }
+
   .login_form {
     border: none;
     margin: 0px 20px;

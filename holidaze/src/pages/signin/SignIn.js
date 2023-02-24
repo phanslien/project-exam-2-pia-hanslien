@@ -1,13 +1,15 @@
-import LoginForm from "../../components/form/login/LoginForm";
+
+import SignIn from "../../components/form/login/SignInForm";
 import Heading from "../../components/elements/heading/HeadingLarge";
-import styles from "./Login.module.css";
+import styles from "./SignIn.module.css";
+
 const Login = () => {
   return (
   <div>
     <div className={styles.login_heading}>
     <Heading headingLarge="Login"  />
     </div>
-    <LoginForm />
+   <SignIn />
   </div>
   );
 }

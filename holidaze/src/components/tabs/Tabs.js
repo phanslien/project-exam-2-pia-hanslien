@@ -22,6 +22,7 @@ const Tabs = () => {
             id="tab_one"
             active={active}
             setActive={setActive}
+            exact
           />
           <TabNavItem
             tabTitle="Contact entries"

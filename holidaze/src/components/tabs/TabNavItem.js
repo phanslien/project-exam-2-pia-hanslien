@@ -10,3 +10,4 @@ const TabNavItem = ({ id, tabTitle, active, setActive }) => {
   );
 };
 export default TabNavItem;
+
