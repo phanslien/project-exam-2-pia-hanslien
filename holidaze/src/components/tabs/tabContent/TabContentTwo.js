@@ -30,7 +30,7 @@ function TabContentTwo() {
           </p>
           <p>
             <span className={styles.container_tabOne__span}>
-              Date of arrival: 
+              Date of arrival:
             </span>
             {enquires.attributes.Date}
           </p>

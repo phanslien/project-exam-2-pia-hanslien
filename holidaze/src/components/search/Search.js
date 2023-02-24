@@ -11,16 +11,16 @@ function Search() {
   };
 
   return (
-      <div className={styles.container_search}>
-        <form>
-          <input
-            onChange={inputHandler}
-            placeholder="Search..."
-            className={styles.container_search__input}
-          />
-        </form>
-        <AccommodationsList input={inputText} />
-      </div>
+    <div className={styles.container_search}>
+      <form>
+        <input
+          onChange={inputHandler}
+          placeholder="Search..."
+          className={styles.container_search__input}
+        />
+      </form>
+      <AccommodationsList input={inputText} />
+    </div>
   );
 }
 

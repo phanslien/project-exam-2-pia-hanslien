@@ -4,11 +4,9 @@ import { Footer } from "antd/es/layout/layout";
 function FooterOne() {
   return (
     <>
-     <Footer className={styles.footer}>
-      <p>
-        Hello
-      </p>
-      <p>World</p>
+      <Footer className={styles.footer}>
+        <p>Hello</p>
+        <p>World</p>
       </Footer>
     </>
   );

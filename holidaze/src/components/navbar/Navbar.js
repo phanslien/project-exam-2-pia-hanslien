@@ -5,8 +5,6 @@ import { useAuthContext } from "../../context/AuthContext";
 import { removeToken } from "../../context/helpers";
 import styles from "./Navbar.module.css";
 
-
-
 const NavBar = () => {
   const { user } = useAuthContext();
   const navigate = useNavigate();
@@ -45,10 +43,16 @@ const NavBar = () => {
                     </NavLink>
                   </li>
                   <li className={styles.nav__item}>
-                    <NavLink to="/dashboard" className={styles.navbar_link}>Dashboard</NavLink>
+                    <NavLink to="/dashboard" className={styles.navbar_link}>
+                      Dashboard
+                    </NavLink>
                   </li>
                   <li className={styles.nav__item}>
-                    <NavLink to="/signin" onClick={handleLogout} className={styles.navbar_link}>
+                    <NavLink
+                      to="/signin"
+                      onClick={handleLogout}
+                      className={styles.navbar_link}
+                    >
                       Logout
                     </NavLink>
                   </li>
@@ -60,14 +64,18 @@ const NavBar = () => {
           <>
             <div className={styles.navbar}>
               <div>
-                <NavLink to="/" exact activeClassName={styles.navbar__link_active}>
+                <NavLink
+                  to="/"
+                  exact
+                  activeClassName={styles.navbar__link_active}
+                >
                   <p className={styles.navbar_logo}>Holidaze</p>
                 </NavLink>
               </div>
               <div>
                 <ul className={styles.navbar_list}>
                   <li>
-                    <NavLink to="/" className={styles.navbar_link} >
+                    <NavLink to="/" className={styles.navbar_link}>
                       Home
                     </NavLink>
                   </li>

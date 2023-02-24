@@ -21,16 +21,12 @@ function TabContentThree() {
 
         axios
           .post(URL, { Image: imageId })
-          .then((response) => {
-  
-          })
+          .then((response) => {})
           .catch((error) => {
             console.log(error);
           });
       })
-      .catch((error) => {
-
-      });
+      .catch((error) => {});
   };
 
   const [hotelTitle, setTitle] = useState("");
@@ -71,7 +67,7 @@ function TabContentThree() {
   return (
     <div onSubmit={addForm}>
       <form className={styles.form} onSubmit={uploadImage}>
-        <input type="file"  onChange={(e) => setFiles(e.target.files)} />
+        <input type="file" onChange={(e) => setFiles(e.target.files)} />
         <p className={styles.container_tabThree__span}>Name of hotell:</p>
         <input
           className={styles.container_tabThree__input}

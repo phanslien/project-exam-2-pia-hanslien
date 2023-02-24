@@ -1,7 +1,7 @@
 .container__accommodations {
   padding: 30px;
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   justify-content: center;
 }
 
@@ -55,7 +55,6 @@
   margin-left: 5px;
 }
 
-
 @media only screen and (max-width: 700px) {
   .acc {
     display: grid;
@@ -67,7 +66,6 @@
     margin-bottom: 10px;
   }
 }
-
 
 @media only screen and (max-width: 1000px) {
   .acc {
