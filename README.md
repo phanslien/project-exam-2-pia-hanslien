@@ -1,6 +1,6 @@
 # Holidaze
 
-![image](link.com)
+![image](https://github.com/phanslien/project-exam-2-pia-hanslien/blob/main/projectexam.png)
 
 
 ## Description
