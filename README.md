@@ -9,7 +9,6 @@ Holidaze is a travel agency booking service, where you as a user can search, loo
 
 The website has both an customer interface, as well as an administration interface, where the admin can log in and add new establishments, view submitted contact and enquiry forms.
 
-
 The establishment is fetch by a separate API, and the submitted forms 
 are stored in the same API and get fetch to the admin page.
 
@@ -33,6 +32,12 @@ git clone https://github.com/phanslien/project-exam-2-pia-hanslien.git
 ```
 
 ### Running
+Remember to make sure your in the right folder:
+
+```bash
+
+npm cd holidaze/
+```
 
 To run the app, do the following:
 
@@ -40,7 +45,6 @@ To run the app, do the following:
 
 npm start
 ```
-.
 
 ## Contributing
 
